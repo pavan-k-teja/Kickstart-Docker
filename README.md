@@ -28,8 +28,6 @@ No hassle. Total anonymity.
 * [Expressjs]
 * [MongoDB]
 * [Redis]
-* [Microsoft Azure]
-* [Github Actions]
 
 ### Project Link's
 

@@ -219,11 +219,12 @@ exports.getBlog = async (req, res) => {
     const Blogs = await Blog.find().skip(parseInt(skipNo)).limit(parseInt(pageSize));
     let Pagination = { 
         currentPage: pageNum,
-        pageSize: pageSize,
+        pageSize: Blogs.length,
         totalRecords: totalNumber,
         totalPages: Math.ceil(totalNumber/pageSize)
     }
     var result = { data: Blogs, Pagination }
+    console.log(result);
     res.send(result);
 }
 

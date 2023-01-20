@@ -450,7 +450,7 @@ components:
         name:
           type: string
           description: "Name of User"
-          example: "Sai Satwik"
+          example: "Pavan Sai Teja"
         email:
           type: string
           description: "Email ID of User"
@@ -645,7 +645,7 @@ components:
         fullName:
           type: string
           description: "Name"
-          example: "Sai Satwik"
+          example: "Pavan Sai Teja"
         subject: 
           type: string
           description: "Subject"
@@ -673,7 +673,7 @@ components:
         fullName:
           type: string
           description: "Name"
-          example: "Sai Satwik"
+          example: "Pavan Sai Teja"
         subject: 
           type: string
           description: "Subject"
@@ -741,7 +741,7 @@ components:
           example: "How I made $10M in one year"
         authorName:
           type: string
-          example: "Sai Satwik"
+          example: "Pavan Sai Teja"
         url: 
           type: string
           example: "https://medium.com/1531427186611"
@@ -761,7 +761,7 @@ components:
           example: "How I made $10M in one year"
         authorName:
           type: string
-          example: "Sai Satwik"
+          example: "Pavan Sai Teja"
         url: 
           type: string
           example: "https://medium.com/1531427186611"
